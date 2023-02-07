@@ -6,6 +6,8 @@ categories: art
 ---
 ## Part 1 Sketchbook/Linework
 
+![Image 1](/assets/images/lost-boys-sketchboook-scans-1.jpg)
+
 __(This post is a re-edited version of one that first appeared on Substack)__
 
 
