@@ -4,10 +4,9 @@ title: "Lost Boys Painting: A Step by Step Process"
 date: 2023-01-17 14:00:00
 categories: art
 ---
-# Lost Boys Painting: A Step by Step Process
 ## Part 1 Sketchbook/Linework
 
-(This post is a re-edited version of one that first appeared on Substack)
+__(This post is a re-edited version of one that first appeared on Substack)__
 
 
 I am quite overdue on making this post. I’ve been meaning to get this blog rolling for a while. Hopefully now this little update is live we can a get some regularity going.
@@ -27,7 +26,7 @@ When I finally decided to go back to work on this project, it was like seeing it
 I feel like I should maybe be showing the entire linework but I’m not quite ready to reveal the composition in the this post, but don't cry little sister because we'll be going through the process in more depth next time. It's going to be a painted poster in acrylic and maybe oils. I want to document the process and techniques as much as I can and if you have any questions, I'm very happy to answer. Next up - Line-work to board > The monochrome under-painting, a sweaty sexy sax man, what brushes will I use? and how the hell do you do backgrounds? etc.. See you next time.
 
 
-Three things:
+### Three things:
 
 I’m going to try and end my posts with 3 random things that are kind of on my radar currently..
 
