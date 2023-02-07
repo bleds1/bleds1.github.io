@@ -6,7 +6,7 @@ categories: art
 ---
 ## Part 1 Sketchbook/Linework
 
-![Image 1](/assets/images/lost-boys-sketchbook-scans-1.jpg){:height="600px" width="500px"}
+![Image 1](/assets/images/lost-boys-sketchbook-scans-1.jpg){:height="700px" width="600px"}
 
 
 
