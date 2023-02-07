@@ -8,7 +8,6 @@ categories: art
 
 ![Image 1](/assets/images/lost-boys-sketchbook-scans-1.jpg){:height="600px" width="500px"}
 
-_(This post is a re-edited version of one that first appeared on Substack)_
 
 
 I am quite overdue on making this post. I’ve been meaning to get this blog rolling for a while. Hopefully now this little update is live we can a get some regularity going.
@@ -49,3 +48,5 @@ _Just started on this book and I’ve just got that feeling that it’s going to
 
 _My favourite podcast at the moment. Blindboy is just a very smart and entertaining story teller. Love the ‘hot take’ episodes._
 
+
+_(This post is a re-edited version of one that first appeared on Substack)_
