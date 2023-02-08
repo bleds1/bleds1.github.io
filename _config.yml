@@ -29,6 +29,7 @@ mastodon:
 # Build settings
 markdown: kramdown
 theme: minima
+skin: dark
 plugins:
   - jekyll-feed
 
