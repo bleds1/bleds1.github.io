@@ -24,9 +24,9 @@ Another app on my road to Emacs that I previously thought was 'the one' is Obsid
 
 Be sure to have Vanilla Emacs installed first and then git clone Doom Emacs;
 
-
-**git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.emacs.d ~/.emacs.d/bin/doom install**
-
+```
+git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.emacs.d ~/.emacs.d/bin/doom install
+```
 
 You may want to set up an alias, keyboard shortcut or startup script for launching Emacs with the emacsclient. It's the best and fastest way to use Emacs trust me..
 
@@ -61,13 +61,22 @@ Most of your configuration will be taking place in **~/.doom.d/config.el** You c
 
 ![Image 3](/assets/images/init-doom-emacs-pigmentandpixels-3.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
-This file lists a bunch of modules/packages that are Doom ready just comment out those ;; things with **x** to delete the character. Restart, sync as mentioned above.
+This file lists a bunch of modules/packages that are Doom ready just comment out those ;; things with **x** to delete the character. Restart, sync as mentioned previously.
 
 ```
-[codeblock]
+(org
+ +journal
++pretty
++roam2)
+hl-todo
+treemacs
+word-wrap
+syntax
+pdf
+markdown
 ```
 
-Those are the most important ones for emulating my set up that I have activated. You may want to activate programming languages you often use for nice coloured syntax here.
+These above are the most important ones for emulating my set up that I have activated. You may want to activate programming languages you often use for nice coloured syntax here.
 
 
 ### packages.el
@@ -109,9 +118,9 @@ I use [Jet Brains Mono](https://www.jetbrains.com/lp/mono/). Your font of choice
 
 I used to really like relative line numbers in Vim but because I'm doing more prose writing in Doom I disable them. It's very easy to reactivate them if needs be with **Space-t-l** or **M-x toggle-line-numbers**.
 
-
-**(setq display-line-numbers-type nil)**
-
+```
+(setq display-line-numbers-type nil)
+```
 
 ## Set a Theme
 
