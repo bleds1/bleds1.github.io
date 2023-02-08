@@ -119,7 +119,7 @@ Type **M-x** and then **load-theme**. You will see a list of availible themes in
 
 ## Modeline
 
-![Image 5](/assets/images/modeline-doom-emacs-pigmentandpixels-5.png){:height="400px" width="500px"}{:style="display:block; margin-left:auto; margin-right:auto"}
+![Image 5](/assets/images/modeline-doom-emacs-pigmentandpixels-5.png){:height="400px" width="700px"}{:style="display:block; margin-left:auto; margin-right:auto"}
 
 You'll want to get that Doom modeline at the bottom of the screen looking sweet too. Here's the tweaks I use as there’s a bit too much going on down there by default for my taste..
 
