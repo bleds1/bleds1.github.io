@@ -45,7 +45,9 @@ Run the Emacs client;
 If you’re not on Linux you can find alternate install and setup instructions for Mac & Windows [here](https://github.com/doomemacs/doomemacs/blob/master/docs/getting_started.org).
 
 
+
 ## Basic configuration
+
 
 ### config.el
 
@@ -53,6 +55,7 @@ If you’re not on Linux you can find alternate install and setup instructions f
 
 
 Most of your configuration will be taking place in **~/.doom.d/config.el** You can run **‘doom sync’** after any changes for them to take effect with **(Space-h-r-r)**. That's a keybind you'll use a lot. I remember it as *"Hey, Reload, Reload!"*. You don't need to exit Doom when you make changes to this file but you will if you add any new packages. If you’ve added new packages to Doom you'll want to exit and kill the daemon and run **‘doom sync’** at the terminal.
+
 
 ### init.el
 
@@ -83,11 +86,13 @@ Here's some packages I enable;
 
 **(package! focus)**
 
-[image]
+![Image](/assets/images/focus-doom-emacs-pigmentandpixels.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
 - **M-x focus-mode** - greys out text in a file apart from the few lines you are editing. [Obsidian](https://obsidian.md/) and [limelight.vim](https://github.com/junegunn/limelight.vim) do something similar. I will be refering to the key **META** from here as **M** which is also known as **ALT**. You can think of it as a leader key, **Space** is the other main leader key.
 
+
 ## Set your font
+
 
 I use [Jet Brains Mono](https://www.jetbrains.com/lp/mono/). Your font of choice needs to be already installed on your system. You can set a larger version or different font to be used in different modes such as writeroom-mode.
 
@@ -99,6 +104,7 @@ I use [Jet Brains Mono](https://www.jetbrains.com/lp/mono/). Your font of choice
       
 ## Disable Line Numbers
 
+
 I used to really like relative line numbers in Vim but because I'm doing more prose writing in Doom I disable them. It's very easy to reactivate them if needs be with **Space-t-l** or **M-x toggle-line-numbers**.
 
 
@@ -106,6 +112,7 @@ I used to really like relative line numbers in Vim but because I'm doing more pr
 
 
 ## Set a Theme
+
 
 We’ll be needing a cool theme if we're going to use this thing regularly. I use an inbuilt doom-theme ‘wilmersdorf’. The default background for that is dark blue and I like it even darker than that so I add a few lines to make it a dark, dark grey.
 
@@ -118,6 +125,7 @@ Type **M-x** and then **load-theme**. You will see a list of availible themes in
 
 
 ## Modeline
+
 
 ![Image 5](/assets/images/modeline-doom-emacs-pigmentandpixels-5.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
@@ -137,6 +145,7 @@ You'll want to get that Doom modeline at the bottom of the screen looking sweet 
 
 
 ## Keybinds and basic navigation
+
 
 Here’s some very basic beginner key binds to get you started. Thankfully Doom has which-key. This makes learning the key binds so much easier. Doom is based around having a leader key followed by a key chord. They are all quite literate for example;
 
@@ -182,6 +191,7 @@ Start writing, editing, Using the Vim keys - **i and esc** to switch from INSERT
 
 ## Outro
 
+
 That's probably enough word count for this first post about Doom Emacs as Substack is telling me it’s too long for an email and I don’t want to overload. This should get you started at least. I'll pick up where we left off in future posts because now we’re past the super basics I’m excited to talk about the killer feature that is **org-mode** and **org-agenda**. I'll try to show you how I set up my GTD task system and the quick capture templates to make note taking and writing a quick and easy process.
 
 It's *quite the vast topic*.. If you've got any questions, I'll try my best to answer.
@@ -191,7 +201,9 @@ Whilst you're here did you know pigmentandpixels is also an art blog? I try to d
 
 ![Image 7](/assets/images/doom-emacs-icon-128x128.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
+
 ### Resources
+
 
 Find below resources I found useful and stole a lot of stuff from for my config. If you are ready to give up your soul to Emacs maybe bookmark this for later. Thanks for reading!
 
