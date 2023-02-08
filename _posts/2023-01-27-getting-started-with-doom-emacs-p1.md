@@ -47,14 +47,14 @@ If you’re not on Linux you can find alternate install and setup instructions f
 
 ## Basic configuration
 
+### config.el
+
 ![Image 2](/assets/images/terminal-dir-doom-emacs-pigmentandpixels-2.png){:height="400px" width="600px"}{:style="display:block; margin-left:auto; margin-right:auto"}
 
-### config.el
 
 Most of your configuration will be taking place in **~/.doom.d/config.el** You can run **‘doom sync’** after any changes for them to take effect with **(Space-h-r-r)**. That's a keybind you'll use a lot. I remember it as *"Hey, Reload, Reload!"*. You don't need to exit Doom when you make changes to this file but you will if you add any new packages. If you’ve added new packages to Doom you'll want to exit and kill the daemon and run **‘doom sync’** at the terminal.
 
 ### init.el
-
 
 ![Image 3](/assets/images/init-doom-emacs-pigmentandpixels-3.png){:height="700px" width="400px"}{:style="display:block; margin-left:auto; margin-right:auto"}
 
@@ -65,7 +65,7 @@ This file lists a bunch of modules/packages that are Doom ready just comment out
 Those are the most important ones for emulating my set up that I have activated. You may want to activate programming languages you often use for nice coloured syntax here.
 
 
-### package.el
+### packages.el
 
 ![Image 4](/assets/images/packages-doom-emacs-pigmentandpixels-4.png){:height="400px" width="500px"}{:style="display:block; margin-left:auto; margin-right:auto"}
 
@@ -73,24 +73,23 @@ Any other packages are installed in packages.el. You add a package with (package
 
 Here's some packages I enable;
 
-**Beacon** [link]()
+**Beacon** [link](https://github.com/Malabarba/beacon)
 
 **(beacon! focus)**
 
 - This makes a cool little graphical pulse to show what line number you are on when you switch file or window.
 
-**Focus** [link]()
+**Focus** [link](https://github.com/larstvei/Focus)
 
 **(package! focus)**
 
 [image]
 
-- **M-x focus-mode** - greys out text in a file apart from the few lines you are editing. [Obsidian]() and [limelight.vim]() do something similar. I will be refering to the key **META** from here as **M** which is also known as **ALT**. You can think of it as a leader key, **Space** is the other main leader key.
+- **M-x focus-mode** - greys out text in a file apart from the few lines you are editing. [Obsidian](https://obsidian.md/) and [limelight.vim](https://github.com/junegunn/limelight.vim) do something similar. I will be refering to the key **META** from here as **M** which is also known as **ALT**. You can think of it as a leader key, **Space** is the other main leader key.
 
 ## Set your font
 
-I use [Jet Brains Mono](). Your font of choice needs to be already installed on your system. You can set a larger version or different font to be used in different modes such as writeroom-mode.
-
+I use [Jet Brains Mono](https://www.jetbrains.com/lp/mono/). Your font of choice needs to be already installed on your system. You can set a larger version or different font to be used in different modes such as writeroom-mode.
 
 
 **(setq doom-font (font-spec :family "JetBrains Mono" :size 13 :weight 'Medium)
@@ -120,7 +119,7 @@ Type **M-x** and then **load-theme**. You will see a list of availible themes in
 
 ## Modeline
 
-[image]
+![Image 5](/assets/images/modeline-doom-emacs-pigmentandpixels-5.png){:height="400px" width="500px"}{:style="display:block; margin-left:auto; margin-right:auto"}
 
 You'll want to get that Doom modeline at the bottom of the screen looking sweet too. Here's the tweaks I use as there’s a bit too much going on down there by default for my taste..
 
