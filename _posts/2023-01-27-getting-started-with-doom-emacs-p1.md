@@ -23,18 +23,27 @@ Another app on my road to Emacs that I previously thought was 'the one' is Obsid
 ## How to install Doom Emacs
 
 Be sure to have Vanilla Emacs installed first and then git clone Doom Emacs;
-[code block]
-  git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.emacs.d ~/.emacs.d/bin/doom install-
+
+
+**git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.emacs.d ~/.emacs.d/bin/doom install**
+
+
 You may want to set up an alias, keyboard shortcut or startup script for launching Emacs with the emacsclient. It's the best and fastest way to use Emacs trust me..
 
 Start the daemon for the emacsclient from your terminal with;
 
- /usr/bin/emacs --daemon &
+
+**/usr/bin/emacs --daemon &**
+
+
 Run the Emacs client;
 
-  emacsclient -c -a 'emacs'
+
+**emacsclient -c -a 'emacs'**
+
+
 If you’re not on Linux you can find alternate install and setup instructions for Mac & Windows here.
-[code block]
+[link]()
 
 
 ## Basic configuration
@@ -43,13 +52,13 @@ If you’re not on Linux you can find alternate install and setup instructions f
 
 ### config.el
 
-Most of your configuration will be taking place in ~/.doom.d/config.el You can run ‘doom sync’ after any changes for them to take effect with (Space-h-r-r). That's a keybind you'll use a lot. I remember it as "Hey, Reload, Reload!". You don't need to exit Doom when you make changes to this file but you will if you add any new packages. If you’ve added new packages to Doom you'll want to exit and kill the daemon and run ‘doom sync’ at the terminal.
+Most of your configuration will be taking place in **~/.doom.d/config.el** You can run **‘doom sync’** after any changes for them to take effect with **(Space-h-r-r)**. That's a keybind you'll use a lot. I remember it as *"Hey, Reload, Reload!"*. You don't need to exit Doom when you make changes to this file but you will if you add any new packages. If you’ve added new packages to Doom you'll want to exit and kill the daemon and run **‘doom sync’** at the terminal.
 
 ### init.el
 
 [image]
 
-This file lists a bunch of modules/packages that are Doom ready just comment out those ;; things with x to delete the character. Restart, sync as mentioned above.
+This file lists a bunch of modules/packages that are Doom ready just comment out those ;; things with **x** to delete the character. Restart, sync as mentioned above.
 
 [image]
 
@@ -64,47 +73,50 @@ Any other packages are installed in packages.el. You add a package with (package
 
 Here's some packages I enable;
 
-Beacon [link]
-[code block]
-(beacon! focus)
+**Beacon** [link]()
+
+**(beacon! focus)**
 
 - This makes a cool little graphical pulse to show what line number you are on when you switch file or window.
 
-Focus [link]
-[code block]
-(package! focus)
+**Focus** [link]()
+
+**(package! focus)**
 
 [image]
 
-- M-x focus-mode - greys out text in a file apart from the few lines you are editing. Obsidian and limelight.vim do something similar. I will be refering to the key META from here as M which is also known as ALT. You can think of it as a leader key, Space is the other main leader key.
+- **M-x focus-mode** - greys out text in a file apart from the few lines you are editing. [Obsidian]() and [limelight.vim]() do something similar. I will be refering to the key **META** from here as **M** which is also known as **ALT**. You can think of it as a leader key, **Space** is the other main leader key.
 
 ### Set your font
 
-I use Jet Brains Mono. Your font of choice needs to be already installed on your system. You can set a larger version or different font to be used in different modes such as writeroom-mode.
+I use [Jet Brains Mono](). Your font of choice needs to be already installed on your system. You can set a larger version or different font to be used in different modes such as writeroom-mode.
 
-[code block]
 
-(setq doom-font (font-spec :family "JetBrains Mono" :size 13 :weight 'Medium)
+
+**(setq doom-font (font-spec :family "JetBrains Mono" :size 13 :weight 'Medium)
       doom-big-font (font-spec :family "JetBrains Mono" :size 14 :weight 'Medium)
-      doom-variable-pitch-font (font-spec :family "JetBrains Mono" :size 14))
+      doom-variable-pitch-font (font-spec :family "JetBrains Mono" :size 14))**
+      
       
 ### Disable Line Numbers
 
-I used to really like relative line numbers in Vim but because I'm doing more prose writing in Doom I disable them. It's very easy to reactivate them if needs be with Space-t-l or M-x toggle-line-numbers.
+I used to really like relative line numbers in Vim but because I'm doing more prose writing in Doom I disable them. It's very easy to reactivate them if needs be with **Space-t-l** or **M-x toggle-line-numbers**.
 
-[code block]
-(setq display-line-numbers-type nil)
+
+**(setq display-line-numbers-type nil)**
+
 
 ### Set a Theme
 
 We’ll be needing a cool theme if we're going to use this thing regularly. I use an inbuilt doom-theme ‘wilmersdorf’. The default background for that is dark blue and I like it even darker than that so I add a few lines to make it a dark, dark grey.
 
-Type M-x and then load-theme. You will see a list of availible themes in the buffer at the bottom of the screen. If you want to just change the background colour you can type M-x set-background-color. These changes won't be permanent until you add the commands to your config.el.
+Type **M-x** and then **load-theme**. You will see a list of availible themes in the buffer at the bottom of the screen. If you want to just change the background colour you can type **M-x set-background-color**. These changes won't be permanent until you add the commands to your config.el.
 
-[code block]
-(setq doom-theme 'doom-wilmersdorf)
+
+**(setq doom-theme 'doom-wilmersdorf)
 (custom-set-faces
-'(default ((t (:background "#1a1a1a" :foreground "#a9b1d6")))))
+'(default ((t (:background "#1a1a1a" :foreground "#a9b1d6")))))**
+
 
 ### Modeline
 
@@ -112,9 +124,8 @@ Type M-x and then load-theme. You will see a list of availible themes in the buf
 
 You'll want to get that Doom modeline at the bottom of the screen looking sweet too. Here's the tweaks I use as there’s a bit too much going on down there by default for my taste..
 
-[code block]
 
-(after! doom-modeline
+**(after! doom-modeline
 (remove-hook 'doom-modeline-mode-hook #'size-indication-mode) ; removes filesize from modeline
 (remove-hook 'doom-modeline-mode-hook #'column-number-mode)   ; removes cursor column in modeline
 (line-number-mode -1)
@@ -123,53 +134,60 @@ You'll want to get that Doom modeline at the bottom of the screen looking sweet 
 (setq display-time-default-load-average nil) ; remove load average
 (setq doom-modeline-height 15) ; shorter bar height
 (display-time-mode 1) ; show time and date
-(setq display-time-format "%Y-%m-%d %H:%M") ; time and date format
+(setq display-time-format "%Y-%m-%d %H:%M") ; time and date format**
+
 
 ### Keybinds and basic navigation
 
 Here’s some very basic beginner key binds to get you started. Thankfully Doom has which-key. This makes learning the key binds so much easier. Doom is based around having a leader key followed by a key chord. They are all quite literate for example;
 
-Space (the leader key) o-a = Open Org-agenda - open (o)rg (a)genda.
 
-Space n-j = (n)ew (j)ournal entry.
+**Space (the leader key) o-a** = Open Org-agenda - open (o)rg (a)genda.
+
+**Space n-j** = (n)ew (j)ournal entry.
+
 
 There are many more examples of this so when you know what you want to do these chords become memorable.
 
-Space . will get you into the file explorer to open any file or directory on your system.
+**Space .** will get you into the file explorer to open any file or directory on your system.
 
-Space Enter will access bookmarks. You can set bookmarks with M-x bookmark-set.
+**Space Enter** will access bookmarks. You can set bookmarks with **M-x bookmark-set**.
 
-M-x is very powerful. This is the best way to learn because a lot of commands will have a keyboard shortcut shown next to it in the buffer at the bottom of the screen..or you can set one for it in your config. You can go crazy here because the auto completion works really well.. that's how I picked up so much - try for example;
+**M-x** is very powerful. This is the best way to learn because a lot of commands will have a keyboard shortcut shown next to it in the buffer at the bottom of the screen..or you can set one for it in your config. You can go crazy here because the auto completion works really well.. that's how I picked up so much - try for example;
 
-M-x tetris
+**M-x tetris**
 
 [image]
 
 Every thing you open is a buffer. Even if it's not on screen it's open in the background as a buffer. To navigate buffers you can;
 
-Space b-n - think (b)uffer (n)ext
+**Space b-n** - think (b)uffer (n)ext
 
-Space b-p - think (b)uffer (p)revious
+**Space b-p** - think (b)uffer (p)revious
 
-Space b-k - b(uffer) (k)ill
+**Space b-k** - b(uffer) (k)ill
 
-or Space b-i to list all your open buffers.
+or
 
-Start writing, editing, Using the Vim keys - i and esc to switch from INSERT mode to NORMAL mode. In normal mode you use h,j,k,l to navigate around.
+**Space b-i** to list all your open buffers.
 
-:w - save
 
-:wa - save all open buffers
+Start writing, editing, Using the Vim keys - **i and esc** to switch from INSERT mode to NORMAL mode. In normal mode you use **h,j,k,l** to navigate around.
 
-:wq - to save and quit.
+**:w** - save
+
+**:wa** - save all open buffers
+
+**:wq** - to save and quit.
+
 
 ## Outro
 
 That's probably enough word count for this first post about Doom Emacs as Substack is telling me it’s too long for an email and I don’t want to overload. This should get you started at least. I'll pick up where we left off in future posts because now we’re past the super basics I’m excited to talk about the killer feature that is org-mode and org-agenda. I'll try to show you how I set up my GTD task system and the quick capture templates to make note taking and writing a quick and easy process.
 
-It's quite the vast topic. If you've got any questions, I'll try my best to answer.
+It's *quite the vast topic*.. If you've got any questions, I'll try my best to answer.
 
-Whilst you're here did you know pigmentandpixels is also an art blog? I try to do one post art, one post tech to keep my life in balance. Here's the most recent art post.
+Whilst you're here did you know pigmentandpixels is also an art blog? I try to do one post art, one post tech to keep my life in balance. Here's the [most recent art post]().
 
 [image]
 
@@ -204,4 +222,4 @@ Find below resources I found useful and stole a lot of stuff from for my config.
 
 [Rainer Koenig's Videos on Org-mode](https://piped.kavin.rocks/playlist?list=PLVtKhBrRV_ZkPnBtt_TD1Cs9PJlU0IIdE)
 
-_(This post is a slightly re-edited version of one that first appeared on [Substack](https://pigmentandpixels.substack.com/p/a-beginners-guide-getting-started)_
+_(This post is a slightly re-edited version of one that first appeared on [Substack](https://pigmentandpixels.substack.com/p/a-beginners-guide-getting-started) Until I get comments setup on this blog if you want to leave one it's best to do it there or via the email below_)
