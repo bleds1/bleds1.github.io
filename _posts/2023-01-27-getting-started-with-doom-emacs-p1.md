@@ -8,6 +8,7 @@ categories: emacs
 
 ![Image 1](/assets/images/dashboard-doom-emacs-pigmentandpixels-1.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
+![Image](/assets/images/dashboard-2-doom-emacs-pigmentandpixels.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
 If your first thought on this is *“Urrggh, no not Emacs. Not for me..It's ancient, bloated, complicated, full of features I don't need..just give me a simple plain text editor“*. Well that was me too. I was very much a Vim user because I'm a bit of minimilist, enjoy terminal based applications and like a lean setup. Actually - I still Vim all the time, especially for quick edits. This tribal mentality that you must be on one team or the other seems massively dumb to me. So what turned me the way of Emacs? The short answer is Org-mode but I think that's going to have to wait for another post..
 
@@ -198,7 +199,9 @@ Start writing, editing, Using the Vim keys - **i and esc** to switch from INSERT
 
 **:wa** - save all open buffers
 
-**:wq** - to save and quit.
+**:wq** - to save and quit
+
+**:q!** - quit without saving
 
 
 ## Outro
