@@ -38,15 +38,15 @@ I’ll try and end my posts with 3 random things that are kind of on my radar cu
 
 [Rainer Konigs Org-mode Videos](https://piped.video/playlist?list=PLVtKhBrRV_ZkPnBtt_TD1Cs9PJlU0IIdE)
 
-_I’m going all in with Doom Emacs as my writing, hacking and productivity system this year. I found these videos really useful for learning how Org-mode works._
+_- I’m going all in with Doom Emacs as my writing, hacking and productivity system this year. I found Rainer's videos really useful for learning how Org-mode works._
 
 [‘The Shadow of the Wind’ by Carlos Ruiz Zafon](https://www.goodreads.com/en/book/show/1232.The_Shadow_of_the_Wind)
 
-_Just started on this book and I’ve just got that feeling that it’s going to a good one.._
+_- Just started on this book and I’ve just got that feeling that it’s going to be a good one.._
 
 [The Blindboy Podcast](https://open.spotify.com/show/7HinkS0WZqDuMXYh02EUY1)
 
-_My favourite podcast at the moment. Blindboy is just a very smart and entertaining story teller. Love the ‘hot take’ episodes._
+_- My favourite podcast at the moment. Blindboy is just a very smart and entertaining story teller. Love the ‘hot take’ episodes._
 
 
-_(This post is a re-edited version of one that first appeared on [Substack](https://pigmentandpixels.substack.com/p/lost-boys-painting-part-1)_
+_(This post is a slightly re-edited version of one that first appeared on [Substack](https://pigmentandpixels.substack.com/p/lost-boys-painting-part-1)_
