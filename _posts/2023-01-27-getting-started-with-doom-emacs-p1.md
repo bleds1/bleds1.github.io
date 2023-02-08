@@ -177,33 +177,31 @@ Whilst you're here did you know pigmentandpixels is also an art blog? I try to d
 
 Find below resources I found useful and stole a lot of stuff from for my config. If you are ready to give up your soul to Emacs maybe bookmark this for later. Thanks for reading!
 
-[links]
 
-Doom Emacs on Github
+[Doom Emacs on Github](https://github.com/doomemacs/doomemacs)
 
-Emacs For Writing prose : A guide
+[Emacs For Writing prose : A guide](https://discourse.doomemacs.org/t/emacs-for-writing-prose/515)
 
-Doom Emacs Discourse
+[Doom Emacs Discourse](https://discourse.doomemacs.org/c/guides/5)
 
-Tecosaur's Doom Emacs Config
+[Tecosaur's Doom Emacs Config](https://tecosaur.github.io/emacs-config/config.html)
 
-Distrotube has many useful videos about Doom Emacs for beginners
+[Distrotube has many useful videos about Doom Emacs for beginners](https://piped.kavin.rocks/channel/UCVls1GmFKf6WlTraIb_IaJg)
 
-Zzamboni 'My Doom Emacs configuration with commentary'
+[Zzamboni 'My Doom Emacs configuration with commentary'](https://zzamboni.org/post/my-doom-emacs-configuration-with-commentary/)
 
-Tasshin on Emacs and building a second brain
+[Tasshin on Emacs and building a second brain](https://tasshin.com/blog/implementing-a-second-brain-in-emacs-and-org-mode)
 
-Jethro Kuan - 'How I Take Notes with Org-Roam'
+[Jethro Kuan - 'How I Take Notes with Org-Roam'](https://jethrokuan.github.io/org-roam-guide/)
 
-A Comprehensive Org config
+[A Comprehensive Org config](http://doc.norang.ca/org-mode.html)
 
-The Org-mode Manual
+[The Org-mode Manual](https://orgmode.org/org.html)
 
-Hugo Cisneros' Org config
+[Hugo Cisneros' Org config](https://hugocisneros.com/org-config)
 
-Rainer Koenig's Blog (Org-mode)
+[Rainer Koenig's Blog (Org-mode)](https://koenig-haunstetten.de/)
 
-Rainer Koenig's Videos on Org-mode
-
+[Rainer Koenig's Videos on Org-mode](https://piped.kavin.rocks/playlist?list=PLVtKhBrRV_ZkPnBtt_TD1Cs9PJlU0IIdE)
 
 _(This post is a slightly re-edited version of one that first appeared on [Substack](https://pigmentandpixels.substack.com/p/a-beginners-guide-getting-started)_
