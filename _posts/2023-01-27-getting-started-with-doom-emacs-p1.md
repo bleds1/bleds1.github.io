@@ -9,7 +9,7 @@ categories: emacs
 [image]
 [image]
 
-If your first thought on this is “Urrggh, no not Emacs. Not for me..It's ancient, bloated, complicated, full of features I don't need..just give me a simple plain text editor“. Well that was me too. I was very much a Vim user because I'm a bit of minimilist, enjoy terminal based applications and like a lean setup. Actually - I still Vim all the time, especially for quick edits. This tribal mentality that you must be on one team or the other seems massively dumb to me. So what turned me the way of Emacs? The short answer is Org-mode but I think that's going to have to wait for another post..
+If your first thought on this is *“Urrggh, no not Emacs. Not for me..It's ancient, bloated, complicated, full of features I don't need..just give me a simple plain text editor“*. Well that was me too. I was very much a Vim user because I'm a bit of minimilist, enjoy terminal based applications and like a lean setup. Actually - I still Vim all the time, especially for quick edits. This tribal mentality that you must be on one team or the other seems massively dumb to me. So what turned me the way of Emacs? The short answer is Org-mode but I think that's going to have to wait for another post..
 
 So, I'm not a coder or programmer and all I know about Elisp is it's got a lot of bloody semicolons. I hack on a few Linux config files but I'm coming at Emacs from the perspective of a note taker. I mostly use Emacs for writing, reading, digital notetaking and task organization.
 
@@ -87,7 +87,7 @@ Here's some packages I enable;
 
 - **M-x focus-mode** - greys out text in a file apart from the few lines you are editing. [Obsidian]() and [limelight.vim]() do something similar. I will be refering to the key **META** from here as **M** which is also known as **ALT**. You can think of it as a leader key, **Space** is the other main leader key.
 
-### Set your font
+## Set your font
 
 I use [Jet Brains Mono](). Your font of choice needs to be already installed on your system. You can set a larger version or different font to be used in different modes such as writeroom-mode.
 
@@ -98,7 +98,7 @@ I use [Jet Brains Mono](). Your font of choice needs to be already installed on 
       doom-variable-pitch-font (font-spec :family "JetBrains Mono" :size 14))**
       
       
-### Disable Line Numbers
+## Disable Line Numbers
 
 I used to really like relative line numbers in Vim but because I'm doing more prose writing in Doom I disable them. It's very easy to reactivate them if needs be with **Space-t-l** or **M-x toggle-line-numbers**.
 
@@ -106,7 +106,7 @@ I used to really like relative line numbers in Vim but because I'm doing more pr
 **(setq display-line-numbers-type nil)**
 
 
-### Set a Theme
+## Set a Theme
 
 We’ll be needing a cool theme if we're going to use this thing regularly. I use an inbuilt doom-theme ‘wilmersdorf’. The default background for that is dark blue and I like it even darker than that so I add a few lines to make it a dark, dark grey.
 
@@ -118,7 +118,7 @@ Type **M-x** and then **load-theme**. You will see a list of availible themes in
 '(default ((t (:background "#1a1a1a" :foreground "#a9b1d6")))))**
 
 
-### Modeline
+## Modeline
 
 [image]
 
@@ -137,7 +137,7 @@ You'll want to get that Doom modeline at the bottom of the screen looking sweet 
 (setq display-time-format "%Y-%m-%d %H:%M") ; time and date format**
 
 
-### Keybinds and basic navigation
+## Keybinds and basic navigation
 
 Here’s some very basic beginner key binds to get you started. Thankfully Doom has which-key. This makes learning the key binds so much easier. Doom is based around having a leader key followed by a key chord. They are all quite literate for example;
 
