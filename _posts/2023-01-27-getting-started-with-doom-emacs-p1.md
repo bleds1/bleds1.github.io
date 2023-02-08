@@ -6,7 +6,7 @@ categories: emacs
 ---
 ## Introduction
 
-![Image 1](/assets/images/dashboard-doom-emacs-pigmentandpixels-1.png){:height="400px" width="600px"}{:style="display:block; margin-left:auto; margin-right:auto"}
+![Image 1](/assets/images/dashboard-doom-emacs-pigmentandpixels-1.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
 
 If your first thought on this is *“Urrggh, no not Emacs. Not for me..It's ancient, bloated, complicated, full of features I don't need..just give me a simple plain text editor“*. Well that was me too. I was very much a Vim user because I'm a bit of minimilist, enjoy terminal based applications and like a lean setup. Actually - I still Vim all the time, especially for quick edits. This tribal mentality that you must be on one team or the other seems massively dumb to me. So what turned me the way of Emacs? The short answer is Org-mode but I think that's going to have to wait for another post..
@@ -49,14 +49,14 @@ If you’re not on Linux you can find alternate install and setup instructions f
 
 ### config.el
 
-![Image 2](/assets/images/terminal-dir-doom-emacs-pigmentandpixels-2.png){:height="400px" width="600px"}{:style="display:block; margin-left:auto; margin-right:auto"}
+![Image 2](/assets/images/terminal-dir-doom-emacs-pigmentandpixels-2.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
 
 Most of your configuration will be taking place in **~/.doom.d/config.el** You can run **‘doom sync’** after any changes for them to take effect with **(Space-h-r-r)**. That's a keybind you'll use a lot. I remember it as *"Hey, Reload, Reload!"*. You don't need to exit Doom when you make changes to this file but you will if you add any new packages. If you’ve added new packages to Doom you'll want to exit and kill the daemon and run **‘doom sync’** at the terminal.
 
 ### init.el
 
-![Image 3](/assets/images/init-doom-emacs-pigmentandpixels-3.png){:height="700px" width="400px"}{:style="display:block; margin-left:auto; margin-right:auto"}
+![Image 3](/assets/images/init-doom-emacs-pigmentandpixels-3.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
 This file lists a bunch of modules/packages that are Doom ready just comment out those ;; things with **x** to delete the character. Restart, sync as mentioned above.
 
@@ -67,7 +67,7 @@ Those are the most important ones for emulating my set up that I have activated.
 
 ### packages.el
 
-![Image 4](/assets/images/packages-doom-emacs-pigmentandpixels-4.png){:height="400px" width="500px"}{:style="display:block; margin-left:auto; margin-right:auto"}
+![Image 4](/assets/images/packages-doom-emacs-pigmentandpixels-4.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
 Any other packages are installed in packages.el. You add a package with (package! example) then exit Doom and run ‘doom sync’ in the terminal.
 
@@ -156,7 +156,7 @@ There are many more examples of this so when you know what you want to do these 
 
 **M-x tetris**
 
-[image]
+![Image 6](/assets/images/which-key-doom-emacs-pigmentandpixels.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
 Every thing you open is a buffer. Even if it's not on screen it's open in the background as a buffer. To navigate buffers you can;
 
@@ -188,7 +188,8 @@ It's *quite the vast topic*.. If you've got any questions, I'll try my best to a
 
 Whilst you're here did you know pigmentandpixels is also an art blog? I try to do one post art, one post tech to keep my life in balance. Here's the [most recent art post](https://pigmentandpixels.xyz/art/2023/01/17/lost-boys-painting-part-1.html).
 
-[image]
+
+![Image 7](/assets/images/doom-emacs-icon-128x128.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
 ### Resources
 
