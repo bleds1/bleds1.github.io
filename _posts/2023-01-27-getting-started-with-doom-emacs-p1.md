@@ -13,7 +13,7 @@ If your first thought on this is *“Urrggh, no not Emacs. Not for me..It's anci
 
 So, I'm not a coder or programmer and all I know about Elisp is it's got a lot of bloody semicolons. I hack on a few Linux config files but I'm coming at Emacs from the perspective of a note taker. I mostly use Emacs for writing, reading, digital notetaking and task organization.
 
-Because Emacs is such a huge topic I'll probably just give an ‘as brief as I can overview’ of some of the reasons and features I use in it. There’s a lot of info out there if it peeks your interest. This first post will be a total beginners guide and link to some resources at the end if you want to go further down the rabbit hole. I'll talk more about the juicy specifics in future posts. I'm going to make the presumption that you, dear reader know a few things already. Like what Vim and the terminal is and what Emacs is. There is an internet if you need to get up to speed.
+Because Emacs is such a huge topic I'll probably just give an *‘as brief as I can overview’** of some of the reasons and features I use in it. There’s a lot of info out there if it peeks your interest. This first post will be a total beginners guide and link to some resources at the end if you want to go further down the rabbit hole. I'll talk more about the juicy specifics in future posts. I'm going to make the presumption that you, dear reader know a few things already. Like what Vim and the terminal is and what Emacs is. There is an internet if you need to get up to speed.
 
 It started for me with Vim motions. I use Vim motions everywhere possible, any editor or browser must have them for me. If I hadn't learnt Vim motions prior, I probably wouldn't have got into Emacs at all. Doom Emacs uses the evil key bindings from Vim. I tried installing vanilla Emacs and was totally lost, it felt like an alien world. Doom makes a lot of sense to me because it's Vimcentric. Doom is essentially a framework with a ton of configuration on top of base Emacs. They have done so much work and optimization for you it's actually quite simple to get started with.
 
@@ -183,11 +183,11 @@ Start writing, editing, Using the Vim keys - **i and esc** to switch from INSERT
 
 ## Outro
 
-That's probably enough word count for this first post about Doom Emacs as Substack is telling me it’s too long for an email and I don’t want to overload. This should get you started at least. I'll pick up where we left off in future posts because now we’re past the super basics I’m excited to talk about the killer feature that is org-mode and org-agenda. I'll try to show you how I set up my GTD task system and the quick capture templates to make note taking and writing a quick and easy process.
+That's probably enough word count for this first post about Doom Emacs as Substack is telling me it’s too long for an email and I don’t want to overload. This should get you started at least. I'll pick up where we left off in future posts because now we’re past the super basics I’m excited to talk about the killer feature that is **org-mode** and **org-agenda**. I'll try to show you how I set up my GTD task system and the quick capture templates to make note taking and writing a quick and easy process.
 
 It's *quite the vast topic*.. If you've got any questions, I'll try my best to answer.
 
-Whilst you're here did you know pigmentandpixels is also an art blog? I try to do one post art, one post tech to keep my life in balance. Here's the [most recent art post]().
+Whilst you're here did you know pigmentandpixels is also an art blog? I try to do one post art, one post tech to keep my life in balance. Here's the [most recent art post](https://pigmentandpixels.xyz/art/2023/01/17/lost-boys-painting-part-1.html).
 
 [image]
 
@@ -222,4 +222,4 @@ Find below resources I found useful and stole a lot of stuff from for my config.
 
 [Rainer Koenig's Videos on Org-mode](https://piped.kavin.rocks/playlist?list=PLVtKhBrRV_ZkPnBtt_TD1Cs9PJlU0IIdE)
 
-_(This post is a slightly re-edited version of one that first appeared on [Substack](https://pigmentandpixels.substack.com/p/a-beginners-guide-getting-started) Until I get comments setup on this blog if you want to leave one it's best to do it there or via the email below_)
+_(This post is a slightly re-edited version of one that first appeared on [Substack](https://pigmentandpixels.substack.com/p/a-beginners-guide-getting-started) Until I get comments setup on this blog if you want to leave one it's best to do it there or via the email or socials below_)
