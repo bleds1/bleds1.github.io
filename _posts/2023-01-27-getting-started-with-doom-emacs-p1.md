@@ -25,7 +25,7 @@ Another app on my road to Emacs that I previously thought was 'the one' is Obsid
 
 Be sure to have Vanilla Emacs installed first and then git clone Doom Emacs;
 
-```
+```zsh
 git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.emacs.d ~/.emacs.d/bin/doom install
 ```
 
@@ -89,13 +89,13 @@ Any other packages are installed in packages.el. You add a package with (package
 Here's some packages I enable;
 
 **Beacon** [link](https://github.com/Malabarba/beacon)
-```
+```elisp
 (beacon! focus)
 ```
 - This makes a cool little graphical pulse to show what line number you are on when you switch file or window.
 
 **Focus** [link](https://github.com/larstvei/Focus)
-```
+```elisp
 (package! focus)
 ```
 ![Image](/assets/images/focus-doom-emacs-pigmentandpixels.png){:style="display:block; margin-left:auto; margin-right:auto"}
