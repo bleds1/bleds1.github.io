@@ -32,15 +32,15 @@ You may want to set up an alias, keyboard shortcut or startup script for launchi
 
 Start the daemon for the emacsclient from your terminal with;
 
+```
+/usr/bin/emacs --daemon &
 
-**/usr/bin/emacs --daemon &**
-
-
+```
 Run the Emacs client;
 
-
-**emacsclient -c -a 'emacs'**
-
+```
+emacsclient -c -a 'emacs'
+```
 
 If you’re not on Linux you can find alternate install and setup instructions for Mac & Windows [here](https://github.com/doomemacs/doomemacs/blob/master/docs/getting_started.org).
 
@@ -63,7 +63,9 @@ Most of your configuration will be taking place in **~/.doom.d/config.el** You c
 
 This file lists a bunch of modules/packages that are Doom ready just comment out those ;; things with **x** to delete the character. Restart, sync as mentioned above.
 
+```
 [codeblock]
+```
 
 Those are the most important ones for emulating my set up that I have activated. You may want to activate programming languages you often use for nice coloured syntax here.
 
@@ -77,15 +79,15 @@ Any other packages are installed in packages.el. You add a package with (package
 Here's some packages I enable;
 
 **Beacon** [link](https://github.com/Malabarba/beacon)
-
-**(beacon! focus)**
-
+```
+(beacon! focus)
+```
 - This makes a cool little graphical pulse to show what line number you are on when you switch file or window.
 
 **Focus** [link](https://github.com/larstvei/Focus)
-
-**(package! focus)**
-
+```
+(package! focus)
+```
 ![Image](/assets/images/focus-doom-emacs-pigmentandpixels.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
 - **M-x focus-mode** - greys out text in a file apart from the few lines you are editing. [Obsidian](https://obsidian.md/) and [limelight.vim](https://github.com/junegunn/limelight.vim) do something similar. I will be refering to the key **META** from here as **M** which is also known as **ALT**. You can think of it as a leader key, **Space** is the other main leader key.
@@ -96,11 +98,11 @@ Here's some packages I enable;
 
 I use [Jet Brains Mono](https://www.jetbrains.com/lp/mono/). Your font of choice needs to be already installed on your system. You can set a larger version or different font to be used in different modes such as writeroom-mode.
 
-
-**(setq doom-font (font-spec :family "JetBrains Mono" :size 13 :weight 'Medium)
+```
+(setq doom-font (font-spec :family "JetBrains Mono" :size 13 :weight 'Medium)
       doom-big-font (font-spec :family "JetBrains Mono" :size 14 :weight 'Medium)
-      doom-variable-pitch-font (font-spec :family "JetBrains Mono" :size 14))**
-      
+      doom-variable-pitch-font (font-spec :family "JetBrains Mono" :size 14))
+```
       
 ## Disable Line Numbers
 
@@ -118,11 +120,11 @@ We’ll be needing a cool theme if we're going to use this thing regularly. I us
 
 Type **M-x** and then **load-theme**. You will see a list of availible themes in the buffer at the bottom of the screen. If you want to just change the background colour you can type **M-x set-background-color**. These changes won't be permanent until you add the commands to your config.el.
 
-
-**(setq doom-theme 'doom-wilmersdorf)
+```
+(setq doom-theme 'doom-wilmersdorf)
 (custom-set-faces
-'(default ((t (:background "#1a1a1a" :foreground "#a9b1d6")))))**
-
+'(default ((t (:background "#1a1a1a" :foreground "#a9b1d6")))))
+```
 
 ## Modeline
 
@@ -131,8 +133,8 @@ Type **M-x** and then **load-theme**. You will see a list of availible themes in
 
 You'll want to get that Doom modeline at the bottom of the screen looking sweet too. Here's the tweaks I use as there’s a bit too much going on down there by default for my taste..
 
-
-**(after! doom-modeline
+```
+(after! doom-modeline
 (remove-hook 'doom-modeline-mode-hook #'size-indication-mode) ; removes filesize from modeline
 (remove-hook 'doom-modeline-mode-hook #'column-number-mode)   ; removes cursor column in modeline
 (line-number-mode -1)
@@ -141,7 +143,8 @@ You'll want to get that Doom modeline at the bottom of the screen looking sweet 
 (setq display-time-default-load-average nil) ; remove load average
 (setq doom-modeline-height 15) ; shorter bar height
 (display-time-mode 1) ; show time and date
-(setq display-time-format "%Y-%m-%d %H:%M") ; time and date format**
+(setq display-time-format "%Y-%m-%d %H:%M") ; time and date format
+```
 
 
 ## Keybinds and basic navigation
