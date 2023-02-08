@@ -33,13 +33,13 @@ You may want to set up an alias, keyboard shortcut or startup script for launchi
 
 Start the daemon for the emacsclient from your terminal with;
 
-```
+```zsh
 /usr/bin/emacs --daemon &
 
 ```
 Run the Emacs client;
 
-```
+```zsh
 emacsclient -c -a 'emacs'
 ```
 
@@ -64,7 +64,7 @@ Most of your configuration will be taking place in **~/.doom.d/config.el** You c
 
 This file lists a bunch of modules/packages that are Doom ready just comment out those ;; things with **x** to delete the character. Restart, sync as mentioned previously.
 
-```
+```elisp
 (org
  +journal
 +pretty
@@ -108,7 +108,7 @@ Here's some packages I enable;
 
 I use [Jet Brains Mono](https://www.jetbrains.com/lp/mono/). Your font of choice needs to be already installed on your system. You can set a larger version or different font to be used in different modes such as writeroom-mode.
 
-```
+```elisp
 (setq doom-font (font-spec :family "JetBrains Mono" :size 13 :weight 'Medium)
       doom-big-font (font-spec :family "JetBrains Mono" :size 14 :weight 'Medium)
       doom-variable-pitch-font (font-spec :family "JetBrains Mono" :size 14))
@@ -119,7 +119,7 @@ I use [Jet Brains Mono](https://www.jetbrains.com/lp/mono/). Your font of choice
 
 I used to really like relative line numbers in Vim but because I'm doing more prose writing in Doom I disable them. It's very easy to reactivate them if needs be with **Space-t-l** or **M-x toggle-line-numbers**.
 
-```
+```elisp
 (setq display-line-numbers-type nil)
 ```
 
@@ -130,7 +130,7 @@ We’ll be needing a cool theme if we're going to use this thing regularly. I us
 
 Type **M-x** and then **load-theme**. You will see a list of availible themes in the buffer at the bottom of the screen. If you want to just change the background colour you can type **M-x set-background-color**. These changes won't be permanent until you add the commands to your config.el.
 
-```
+```elisp
 (setq doom-theme 'doom-wilmersdorf)
 (custom-set-faces
 '(default ((t (:background "#1a1a1a" :foreground "#a9b1d6")))))
@@ -143,7 +143,7 @@ Type **M-x** and then **load-theme**. You will see a list of availible themes in
 
 You'll want to get that Doom modeline at the bottom of the screen looking sweet too. Here's the tweaks I use as there’s a bit too much going on down there by default for my taste..
 
-```
+```elisp
 (after! doom-modeline
 (remove-hook 'doom-modeline-mode-hook #'size-indication-mode) ; removes filesize from modeline
 (remove-hook 'doom-modeline-mode-hook #'column-number-mode)   ; removes cursor column in modeline
