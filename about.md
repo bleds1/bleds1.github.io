@@ -9,6 +9,6 @@ If you've ever enjoyed my work then please consider buying me a coffee and show 
 **This blog is an ongoing project and still under construction.**
 
 
-####[Reply via Email](mailto:bledspixel@pm.me?subject=Re: About)####
-####[Subscribe on Substack](https://pigmentandpixels.substack.com)####
-####[Buy me a Coffee](https://ko-fi.com/bledley)####
+####[Reply via Email](mailto:bledspixel@pm.me?subject=Re: About)
+####[Subscribe on Substack](https://pigmentandpixels.substack.com)
+####[Buy me a Coffee](https://ko-fi.com/bledley)
