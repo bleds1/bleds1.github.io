@@ -249,4 +249,10 @@ Find below resources I found useful and stole a lot of stuff from for my config.
 
 [Rainer Koenig's Videos on Org-mode](https://piped.kavin.rocks/playlist?list=PLVtKhBrRV_ZkPnBtt_TD1Cs9PJlU0IIdE)
 
-_(This post is a slightly re-edited version of one that first appeared on [Substack](https://pigmentandpixels.substack.com/p/a-beginners-guide-getting-started) Until I get comments setup on this blog if you want to leave one it's best to do it there or via the email or socials below_)
+    
+_(This post is a slightly re-edited version of one that first appeared on [Substack](https://pigmentandpixels.substack.com/p/a-beginners-guide-getting-started)_
+
+#### [Reply via Email](mailto:bledspixel@pm.me?subject=Re:Getting started with Doom Emacs p1) ####
+
+
+#### [Buy me a Coffee](https://ko-fi.com/bledley) ####
