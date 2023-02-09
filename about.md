@@ -10,5 +10,7 @@ If you've ever enjoyed my work then please consider buying me a coffee and show 
 
 
 [Reply via Email](mailto:bledspixel@pm.me?subject=Re: About)
+
 [Subscribe on Substack](https://pigmentandpixels.substack.com)
+
 [Buy me a Coffee](https://ko-fi.com/bledley)
