@@ -249,8 +249,9 @@ Find below resources I found useful and stole a lot of stuff from for my config.
 
 [Rainer Koenig's Videos on Org-mode](https://piped.kavin.rocks/playlist?list=PLVtKhBrRV_ZkPnBtt_TD1Cs9PJlU0IIdE)
 
-***
-    
+
+
+
 _(This post is a slightly re-edited version of one that first appeared on [Substack](https://pigmentandpixels.substack.com/p/a-beginners-guide-getting-started))_
 
 
