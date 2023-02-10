@@ -50,3 +50,9 @@ _- My favourite podcast at the moment. Blindboy is just a very smart and enterta
 
 
 _(This post is a slightly re-edited version of one that first appeared on [Substack](https://pigmentandpixels.substack.com/p/lost-boys-painting-part-1)_
+
+
+#### [Reply via Email](mailto:bledspixel@pm.me?subject=Re: Lost Boys p1) ####
+
+
+#### [Buy me a Coffee](https://ko-fi.com/bledley) ####
