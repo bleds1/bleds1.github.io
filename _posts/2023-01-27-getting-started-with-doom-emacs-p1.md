@@ -6,6 +6,8 @@ categories: emacs
 ---
 ## Introduction
 
+{% include read_time.html %}
+
 ![Image 1](/assets/images/dashboard-doom-emacs-pigmentandpixels-1.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
 ![Image](/assets/images/dashboard-2-doom-emacs-pigmentandpixels.png){:style="display:block; margin-left:auto; margin-right:auto"}
