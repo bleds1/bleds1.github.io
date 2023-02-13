@@ -8,7 +8,7 @@ If you've ever enjoyed my work or found something useful then please consider bu
 
 **This blog is an ongoing project and still under construction.**
 
-I intentionally have no tracking, analytics, cookies, anything like that on this blog. Because of this I have no idea about visitor numbers so would love to hear from you via email or you can follow or comment with one of the social links at the bottom of the page. When accessing this site you may get a security warning from your browser, I can assure you it is very safe to whitelist and no nasties. I'm currently confused but working on trying to set up  SSL certificate..
+I intentionally have no tracking, analytics, cookies, anything like that on this blog. Because of this I have no idea about visitor numbers so would love to hear from you via email. You can follow or comment with one of the social links at the bottom of the page. Subscribe with RSS or via my Substack to get new posts in your email inbox.
 
 [Reply via Email](mailto:bledspixel@pm.me?subject=Re: About)
 
